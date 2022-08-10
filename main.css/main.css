@@ -1,0 +1,44 @@
+.directors{
+    background-color: #004047;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.directors>img{
+    margin-top: -80px;
+}
+
+.bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #012F34;
+    width:380px;
+    height: 253px;
+}
+.col-4>div>p{
+    color: #79C8C7;
+}
+.col-4>div>p+p{
+    margin-top: -15px;
+}
+.btn_2{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.link>img+img{
+    display: none;
+}
+.link>img:hover{
+    display: none;
+}
+.link:hover>img+img{
+    display: block;
+}
+.box>a+a{
+    margin-left: 10px;
+}
+.box>a>svg:hover path{
+    fill: #F67E7E;
+}
