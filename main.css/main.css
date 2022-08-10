@@ -21,24 +21,12 @@
 .col-4>div>p+p{
     margin-top: -15px;
 }
-.btn_2{
-    display: none;
-}
 a{
     text-decoration: none;
 }
-.link>img+img{
-    display: none;
+.link>svg:hover circle{
+    fill:#79C8C7; 
 }
-.link>img:hover{
-    display: none;
-}
-.link:hover>img+img{
-    display: block;
-}
-.box>a+a{
-    margin-left: 10px;
-}
-.box>a>svg:hover path{
-    fill: #F67E7E;
+.link3>svg:hover circle{
+    fill:#F67E7E; 
 }
